@@ -1,16 +1,29 @@
-# deliveristo_flutter_frontend_coding_challenge
+Coding Challenge Submission
+Introduction
+Hello,
 
-A new Flutter project.
+I would like to express my gratitude for this opportunity to demonstrate my coding skills. It is my sincere hope to become a valued member of your company.
 
-## Getting Started
+Code Documentation
+Tests
+I have included two types of tests in this project:
 
-This project is a starting point for a Flutter application.
+Integration Tests: You can run these tests in the terminal using the following command:
 
-A few resources to get you started if this is your first Flutter project:
+bash
+Copy code
+flutter test integration_test
+These tests demonstrate the user flow, allowing you to choose options from the breeds dropdown and sub-breeds dropdown before clicking the submit button.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Unit Tests: Specifically for the fetching breeds use case, you can run all unit tests in the terminal using:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+bash
+Copy code
+flutter test
+Architecture
+I have employed the Clean Code Architecture, which consists of three distinct layers to enhance code maintainability and scalability.
+
+UI/UX
+For the user interface and user experience (UI/UX), I have implemented a simple and responsive design. This design was achieved using the flutter_screen_utils package, ensuring a consistent and pleasing user experience across various devices.
+
+Feel free to use this as your README, and make any further adjustments or additions as needed. If you have any specific questions or additional content to include, please let me know.
